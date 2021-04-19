@@ -1,0 +1,8 @@
+alembic
+Authlib
+celery
+redis
+sqlalchemy
+httpx
+ipython
+unidecode
