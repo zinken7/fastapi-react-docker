@@ -122,10 +122,11 @@ services:
 
   # Back-end
   backend:
-    container_name: back-app
+    container_name: backend
     build:
       context: backend
       dockerfile: Dockerfile
+    env_file: .env
     environment:
       PYTHONPATH: .
     networks:
@@ -136,7 +137,7 @@ services:
 
   # Front-end
   dashboard:
-    container_name: front-dashboard
+    container_name: dashboard
     build:
       context: frontend
       dockerfile: Dockerfile

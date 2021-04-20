@@ -6,3 +6,14 @@ sqlalchemy
 httpx
 ipython
 unidecode
+email-validator
+python-dotenv
+
+itsdangerous
+psycopg2
+requests
+passlib
+bcrypt
+sqlalchemy-utils
+python-multipart
+pyjwt

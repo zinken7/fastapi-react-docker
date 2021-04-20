@@ -26,8 +26,8 @@ class Settings(BaseSettings):
     FIRST_SUPERUSER_PASSWORD: str
     FIRST_SUPERUSER_FIRSTNAME: str = "Superuser"
     FIRST_SUPERUSER_LASTNAME: str = "Superuser"
-    SUPERUSER_ROLE: str
-    SUPERUSER_DEPARTMENT: str
+    SUPERUSER_ROLE: str = "superuser"
+    SUPERUSER_DEPARTMENT: str = "superuser"
     USERS_OPEN_REGISTRATION: bool = False
 
     # API
