@@ -21,7 +21,6 @@ services:
     env_file: .env
     depends_on:
       - dashboard
-      - website
     restart: always
     command: /bin/sh -c "while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g 'daemon off;'"
 

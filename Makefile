@@ -1,7 +1,7 @@
 .PHONY: build
 
 build:
-	@chmod +x scripts/build.sh
+	@sudo chmod +x scripts/build.sh
 	@sudo ./scripts/build.sh
 	@echo "[✔️] Frontend build complete!"
 
