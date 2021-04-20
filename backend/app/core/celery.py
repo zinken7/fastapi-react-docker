@@ -6,7 +6,7 @@
 
 
 from celery import Celery
-from config import settings
+from app.core.config import settings
 
 message_broker = f"amqp://{settings.RABBITMQ_DEFAULT_USER}:{settings.RABBITMQ_DEFAULT_PASS}@queue:5672/{settings.RABBITMQ_DEFAULT_VHOST}"
 
