@@ -40,7 +40,7 @@ services:
   # Database
   db:
     container_name: postgres
-    image: postgres:13-alpine
+    image: postgres:12-alpine
     volumes:
       - db-data:/var/lib/postgresql/data:cached
     env_file:
